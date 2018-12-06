@@ -37,6 +37,8 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
 
               <p class="${ styles.description }">${escape(this.properties.test)}</p>
 
+              <p class="${ styles.description }">${escape(this.properties.test2)}</p>
+
             </div>
 
           </div>
